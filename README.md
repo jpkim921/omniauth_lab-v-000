@@ -1,5 +1,7 @@
 # Omniauth Lab
 
+rails g model User name:string email:string uid:string image:string --no-test-framework
+
 ## Objectives
 
 1. Use Omniauth to provide OAuth authentication in a Rails server.
