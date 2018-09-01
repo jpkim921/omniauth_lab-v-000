@@ -17,3 +17,5 @@ class SessionsController < ApplicationController
     request.env['omniauth.auth']
   end
 end
+
+rails g model User name:string email:string uid:string image:string --no-test-framework
